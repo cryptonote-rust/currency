@@ -1,0 +1,16 @@
+[package]
+name = "cryptonote-currency"
+version = "0.1.0"
+authors = ["calidion <calidion@gmail.com>"]
+edition = "2018"
+license = "GPL-3.0-or-later"
+description = "currency for cryptonote"
+
+[dependencies]
+cryptonote-config = "0.1.0"
+dirs = "1.0"
+cryptonote-basic = "0.1.0"
+
+[badges]
+travis-ci = { repository = "cryptonote-rust/currency", branch = "master" }
+codecov = { repository = "cryptonote-rust/currency", branch = "master", service = "github" }
